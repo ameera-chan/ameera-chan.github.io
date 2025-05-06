@@ -1,12 +1,12 @@
-# Welcome to My GitHub Pages Site
+# My CTF Writeups
 
-This is my portfolio showcasing my projects.
+Welcome to my collection of CTF writeups.
 
-## My Projects
-- [Project 1](https://github.com/username/project1)  
-  - Description: Brief overview of Project 1.
-- [Project 2](https://github.com/username/project2)  
-  - Description: Brief overview of Project 2.
+## Synk CTF 2025-02-28
+- [View Writeups](2025-02-28-synk-ctf/)
 
-## About Me
-- Brief bio or other information.
+## umcsCTF 11-04-2025
+- [View Writeups](11-04-2025-umcsCTF/)
+
+## picoCTF 07-03-2025
+- [View Writeups](07-03-2025-picoCTF/)
