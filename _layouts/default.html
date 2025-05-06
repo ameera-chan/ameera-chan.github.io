@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} - {{ site.title }}</title>
     <meta name="description" content="{{ site.description }}">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <meta name="theme-color" content="#000000">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="/assets/css/style.scss">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header>
@@ -16,11 +18,11 @@
             <nav>
                 <a href="/" class="logo">{{ site.title }}</a>
                 <div class="nav-links">
-                    <a href="#about">About</a>
-                    <a href="#skills">Skills</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#ctf">CTF</a>
-                    <a href="#contact">Contact</a>
+                    <a href="#about"><i class="fas fa-user"></i> About</a>
+                    <a href="#skills"><i class="fas fa-code"></i> Skills</a>
+                    <a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a>
+                    <a href="#ctf"><i class="fas fa-shield-alt"></i> CTF</a>
+                    <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
                 </div>
             </nav>
         </div>
@@ -36,8 +38,12 @@
         <div class="container">
             <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
             <div class="social-links">
-                <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer">GitHub</a>
-                <a href="{{ site.linkedin_username }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="{{ site.linkedin_username }}" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
             </div>
         </div>
     </footer>
