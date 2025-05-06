@@ -15,3 +15,16 @@ highlighter: rouge
 sass:
   style: compressed
   sass_dir: _sass
+  sourcemap: never
+
+# Plugins
+plugins:
+  - jekyll-sass-converter
+  - jekyll-seo-tag
+
+# Exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
