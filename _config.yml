@@ -28,3 +28,5 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
+  - .sass-cache
+  - .jekyll-cache
