@@ -30,3 +30,12 @@ exclude:
   - vendor
   - .sass-cache
   - .jekyll-cache
+  - _site
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default

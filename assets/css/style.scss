@@ -5,10 +5,10 @@
     --accent-color: #ff00ff;
     --text-color: #ffffff;
     --background-color: #000000;
-    --card-bg: rgba(20, 20, 20, 0.9);
+    --card-bg: rgba(0, 0, 0, 0.95);
     --card-border: rgba(255, 255, 255, 0.1);
     --glow-color: rgba(0, 255, 157, 0.2);
-    --nav-bg: rgba(0, 0, 0, 0.95);
+    --nav-bg: rgba(0, 0, 0, 0.98);
     --section-spacing: 8rem;
     --gradient-1: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
     --gradient-2: linear-gradient(45deg, var(--secondary-color), var(--accent-color));
@@ -20,14 +20,19 @@
     box-sizing: border-box;
 }
 
+html, body {
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+}
+
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 80px;
 }
 
 body {
-    background-color: var(--background-color);
-    color: var(--text-color);
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
     font-family: 'Fira Code', monospace;
     line-height: 1.6;
     background-image: 
