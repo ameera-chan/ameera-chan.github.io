@@ -13,7 +13,7 @@ title: Home
     <div class="skills-bar-list">
         <div class="skill-bar-item">
             <span class="skill-name">Python</span>
-            <div class="skill-bar"><div class="skill-bar-fill" style="width: 60%"></div></div>
+            <div class="skill-bar"><div class="skill-bar-fill" style="width: 80%"></div></div>
         </div>
         <div class="skill-bar-item">
             <span class="skill-name">JavaScript</span>
@@ -21,15 +21,15 @@ title: Home
         </div>
         <div class="skill-bar-item">
             <span class="skill-name">C++</span>
+            <div class="skill-bar"><div class="skill-bar-fill" style="width: 60%"></div></div>
+        </div>
+        <div class="skill-bar-item">
+            <span class="skill-name">Burp Suite</span>
+            <div class="skill-bar"><div class="skill-bar-fill" style="width: 70%"></div></div>
+        </div>
+        <div class="skill-bar-item">
+            <span class="skill-name">Ghidra</span>
             <div class="skill-bar"><div class="skill-bar-fill" style="width: 50%"></div></div>
-        </div>
-        <div class="skill-bar-item">
-            <span class="skill-name">Web Security</span>
-            <div class="skill-bar"><div class="skill-bar-fill" style="width: 90%"></div></div>
-        </div>
-        <div class="skill-bar-item">
-            <span class="skill-name">CTF Challenges</span>
-            <div class="skill-bar"><div class="skill-bar-fill" style="width: 75%"></div></div>
         </div>
         <div class="skill-bar-item">
             <span class="skill-name">Team Collaboration</span>
@@ -50,7 +50,7 @@ title: Home
     <h2>Projects</h2>
     <div class="project-card">
         <h3>AstoPet - PayHack2024</h3>
-        <p>A pet management system with AI integration that helps pet owners track their pets' health and activities. Built with Vue.js and Python backend.</p>
+        <p>A pet management system with AI integration that helps pet owners track their pets' health and activities. Built with React and Python backend.</p>
         <ul>
             <li>Implemented AI-powered pet behavior analysis</li>
             <li>Developed real-time health monitoring features</li>
