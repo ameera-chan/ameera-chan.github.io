@@ -37,10 +37,16 @@ body {
     line-height: 1.6;
     background-image: 
         radial-gradient(circle at 10% 20%, rgba(0, 255, 157, 0.05) 0%, transparent 20%),
-        radial-gradient(circle at 90% 80%, rgba(0, 184, 255, 0.05) 0%, transparent 20%);
+        radial-gradient(circle at 90% 80%, rgba(0, 184, 255, 0.05) 0%, transparent 20%) !important;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+// Override GitHub Pages styles
+body > * {
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
 }
 
 .container {
