@@ -722,4 +722,67 @@ footer {
         padding: 1.2rem 0.5rem;
         margin: 1.5rem 0.2rem;
     }
+}
+
+// Skills Bar Section
+.skills-bar-list {
+    width: 100%;
+    max-width: 600px;
+    margin: 3rem auto 4rem auto;
+    padding: 2rem 2rem 2rem 0;
+    background: var(--background-color);
+    border-radius: 12px;
+    box-shadow: none;
+}
+
+.skill-bar-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.skill-name {
+    flex: 0 0 180px;
+    font-size: 1.15rem;
+    color: var(--text-color);
+    font-family: inherit;
+    letter-spacing: 0.5px;
+}
+
+.skill-bar {
+    flex: 1;
+    height: 14px;
+    background: #222;
+    border-radius: 7px;
+    margin-left: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+}
+
+.skill-bar-fill {
+    height: 100%;
+    background: var(--primary-color);
+    border-radius: 7px;
+    transition: width 1s cubic-bezier(.77,0,.18,1);
+}
+
+// Optional: Add a subtle underline to the section title
+.skills-section h2 {
+    font-size: 2.1rem;
+    color: var(--text-color);
+    letter-spacing: 1.5px;
+    margin-bottom: 2.5rem;
+    position: relative;
+    font-weight: 700;
+}
+.skills-section h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #444;
+    border-radius: 2px;
+    margin-top: 0.5rem;
+    margin-left: 0;
 } 

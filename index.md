@@ -9,28 +9,39 @@ title: Home
 </div>
 
 <div id="skills" class="skills-section">
-    <h2>Skills</h2>
-    <div class="skills-grid">
-        <div class="skill-card">
-            <h3>Technical Skills</h3>
-            <ul>
-                <li><strong>Programming Languages</strong>: Python, JavaScript, C++</li>
-                <li><strong>Cybersecurity</strong>: CTF Challenges, Web Security, Network Security</li>
-                <li><strong>Web Development</strong>: React, Flutter, Node.js</li>
-                <li><strong>Tools & Technologies</strong>: Git, Docker, Kali Linux, Ubuntu, Android Studio</li>
-                <li><strong>Security Tools</strong>: Burp Suite, Ghidra, Wireshark, Nmap</li>
-            </ul>
+    <h2>My Skills</h2>
+    <div class="skills-bar-list">
+        <div class="skill-bar-item">
+            <span class="skill-name">Python</span>
+            <div class="skill-bar"><div class="skill-bar-fill" style="width: 60%"></div></div>
         </div>
-
-        <div class="skill-card">
-            <h3>Soft Skills</h3>
-            <ul>
-                <li>Problem Solving</li>
-                <li>Team Collaboration</li>
-                <li>Technical Writing</li>
-                <li>Project Management</li>
-                <li>Public Speaking</li>
-            </ul>
+        <div class="skill-bar-item">
+            <span class="skill-name">JavaScript</span>
+            <div class="skill-bar"><div class="skill-bar-fill" style="width: 80%"></div></div>
+        </div>
+        <div class="skill-bar-item">
+            <span class="skill-name">C++</span>
+            <div class="skill-bar"><div class="skill-bar-fill" style="width: 50%"></div></div>
+        </div>
+        <div class="skill-bar-item">
+            <span class="skill-name">Web Security</span>
+            <div class="skill-bar"><div class="skill-bar-fill" style="width: 90%"></div></div>
+        </div>
+        <div class="skill-bar-item">
+            <span class="skill-name">CTF Challenges</span>
+            <div class="skill-bar"><div class="skill-bar-fill" style="width: 75%"></div></div>
+        </div>
+        <div class="skill-bar-item">
+            <span class="skill-name">Team Collaboration</span>
+            <div class="skill-bar"><div class="skill-bar-fill" style="width: 70%"></div></div>
+        </div>
+        <div class="skill-bar-item">
+            <span class="skill-name">Technical Writing</span>
+            <div class="skill-bar"><div class="skill-bar-fill" style="width: 65%"></div></div>
+        </div>
+        <div class="skill-bar-item">
+            <span class="skill-name">Problem Solving</span>
+            <div class="skill-bar"><div class="skill-bar-fill" style="width: 85%"></div></div>
         </div>
     </div>
 </div>
