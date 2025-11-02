@@ -4,9 +4,6 @@ title: Home
 ---
 
 <div class="profile-header">
-    <div class="profile-avatar">
-        <img src="https://avatars.githubusercontent.com/u/{{ site.github_username }}?v=4" alt="Profile Picture" onerror="this.src='https://via.placeholder.com/150'">
-    </div>
     <h1>Ameera Chan</h1>
     <p class="subtitle">Cybersecurity Enthusiast | CTF Player | Web Security</p>
 </div>
