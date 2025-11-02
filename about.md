@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Home
+title: About
+permalink: /about/
 ---
 
 <div class="profile-header">
