@@ -1,0 +1,13 @@
+primary:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Blog
+    url: /blog/
+
+social:
+  - title: GitHub
+    url: https://github.com/ameera-chan
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/nur-ameera-chan-240a9a242/

@@ -1,0 +1,20 @@
+<aside class="side-nav" aria-label="Site navigation">
+    <label class="menu-toggle" for="sidebar-toggle">
+        <span>Navigation</span>
+        <span aria-hidden="true">☰</span>
+    </label>
+
+    <div class="side-nav-content">
+        <nav aria-label="Primary navigation">
+            {% for item in site.data.navigation.primary %}
+            <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active" aria-current="page"{% endif %}>{{ item.title }}</a>
+            {% endfor %}
+        </nav>
+
+        <nav class="social-nav" aria-label="Social links">
+            {% for item in site.data.navigation.social %}
+            <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title }} <span aria-hidden="true">↗</span></a>
+            {% endfor %}
+        </nav>
+    </div>
+</aside>
