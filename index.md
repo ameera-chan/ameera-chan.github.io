@@ -6,6 +6,9 @@ title: Home
 <div class="profile-header">
     <h1>Ameera Chan</h1>
     <p class="subtitle">Cybersecurity Enthusiast | CTF Player | Web Security</p>
+    <div class="contact-gif">
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjliNTk4NTM3MjExZGQ4YzVlOGQ0MmQzNTFjYTFkNjYyMjYzNTVkOSZjdD1n/13HBDT4QSTpveU/giphy.gif" alt="Cat GIF">
+    </div>
 </div>
 
 <hr>
@@ -80,13 +83,5 @@ title: Home
         <div class="list-item">
             <strong>CCNA:</strong> Switching, Routing, and Wireless Essentials - Cisco
         </div>
-    </div>
-</div>
-
-<hr>
-
-<div id="footer">
-    <div class="contact-gif">
-        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjliNTk4NTM3MjExZGQ4YzVlOGQ0MmQzNTFjYTFkNjYyMjYzNTVkOSZjdD1n/13HBDT4QSTpveU/giphy.gif" alt="Contact GIF">
     </div>
 </div>
