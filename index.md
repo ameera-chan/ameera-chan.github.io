@@ -10,17 +10,6 @@ title: Home
 
 <hr>
 
-<div id="about">
-    <h2>About me</h2>
-    <p>Hi! I'm Ameera, a passionate cybersecurity enthusiast with a love for CTF competitions and hackathons. My journey in cybersecurity began with my fascination for solving complex challenges and understanding how systems work.</p>
-    
-    <p>I'm currently pursuing a Bachelor's in Computer Science with a specialization in Cybersecurity (Expected 2026) and completing the Amazon re/Start program. I'm particularly interested in web security and enjoy sharing my knowledge through writeups and technical articles.</p>
-    
-    <p>I will write about my CTF experiences and hacking techniques I learn, to have a reference in the future... because I always forget :)</p>
-</div>
-
-<hr>
-
 <div id="ctf">
     <h2>CTF Experience</h2>
     <div class="simple-list">
@@ -91,17 +80,5 @@ title: Home
         <div class="list-item">
             <strong>CCNA:</strong> Switching, Routing, and Wireless Essentials - Cisco
         </div>
-    </div>
-</div>
-
-<hr>
-
-<div id="contact">
-    <h2>Contact information</h2>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/nur-ameera-chan-240a9a242/">https://www.linkedin.com/in/nur-ameera-chan-240a9a242/</a></p>
-    <p>GitHub: <a href="https://github.com/ameera-chan">https://github.com/ameera-chan</a></p>
-    <p>Feel free to contact me!</p>
-    <div class="contact-gif">
-        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjliNTk4NTM3MjExZGQ4YzVlOGQ0MmQzNTFjYTFkNjYyMjYzNTVkOSZjdD1n/13HBDT4QSTpveU/giphy.gif" alt="Contact GIF">
     </div>
 </div>
