@@ -22,21 +22,10 @@ body {
 }
 
 .site-shell {
-    position: relative;
     display: grid;
     grid-template-columns: 220px minmax(0, 1fr);
-    max-width: 1120px;
+    width: 100%;
     min-height: 100vh;
-    margin: 0 auto;
-}
-
-.site-shell::before {
-    position: absolute;
-    inset: 0 auto 0 0;
-    width: 220px;
-    border-right: 1px solid #30363d;
-    background-color: #0d1117;
-    content: '';
 }
 
 .wrapper {
@@ -90,8 +79,8 @@ body {
 
 .side-nav a:hover,
 .side-nav a.active {
-    border-left-color: #58a6ff;
-    background-color: rgba(88, 166, 255, 0.09);
+    border-left-color: #30363d;
+    background-color: #1a1a1a;
     color: #e0e0e0;
     text-decoration: none;
 }
@@ -200,10 +189,6 @@ a {
 @media (max-width: 768px) {
     .site-shell {
         display: block;
-    }
-
-    .site-shell::before {
-        display: none;
     }
 
     .side-nav {
