@@ -82,3 +82,11 @@ title: Home
         </div>
     </div>
 </div>
+
+<hr>
+
+<div id="footer">
+    <div class="contact-gif">
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjliNTk4NTM3MjExZGQ4YzVlOGQ0MmQzNTFjYTFkNjYyMjYzNTVkOSZjdD1n/13HBDT4QSTpveU/giphy.gif" alt="Contact GIF">
+    </div>
+</div>
